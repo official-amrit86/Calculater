@@ -1,0 +1,50 @@
+  form {
+  background: linear-gradient(145deg, #bcb4b4, #a9a1a1);
+  height: 33.9rem;
+  width: 20rem;
+  border-radius: 1rem;
+  box-shadow: 8px 8px 20px #6e6b6b, -8px -8px 20px #ffffff;
+  padding: 1rem;
+  margin: auto;
+}
+input {
+  width: 100%;
+  height: 5rem;
+  font-size: 2rem;
+  background: #e0f7f7;
+  text-shadow: 1px 1px 2px #6e1625;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: inset 2px 2px 5px #aaa, inset -2px -2px 5px #fff;
+  padding: 0.5rem;
+  margin-bottom: 1rem; 
+}
+
+.number-box {
+  background: linear-gradient(145deg, #3e56ef, #bc6412);
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: inset 2px 2px 6px #000c92, inset -2px -2px 6px #676a81;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  justify-content: center;
+}
+
+button {
+  height: 2.3rem;
+  width: 5.5rem;
+  background: linear-gradient(to bottom, #d1e3e3, #a3c0c0);
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.1rem;
+  box-shadow: 3px 3px 8px #0012e0, -3px -3px 8px #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:active {
+  box-shadow: inset 3px 3px 8px #0012e0, inset -3px -3px 8px #ffffff;
+  transform: translateY(1px);
+} 
+ 
